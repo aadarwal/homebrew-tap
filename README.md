@@ -1,2 +1,21 @@
 # homebrew-tap
-My Homebrew tap
+
+My personal Homebrew tap.
+
+## Available formulas
+
+- **[helium-sync](https://github.com/aadarwal/helium-sync)** — sync Helium browser bookmarks and saved tab groups across Macs via your private git repo.
+
+## Install
+
+```bash
+brew install aadarwal/tap/<formula-name>
+```
+
+For example:
+
+```bash
+brew install aadarwal/tap/helium-sync
+```
+
+`brew tap aadarwal/tap` is implicit on first install.
