@@ -1,5 +1,5 @@
 class HeliumSync < Formula
-  desc "Bidirectional sync of Helium browser bookmarks + saved tab groups via your private git repo"
+  desc "Sync Helium browser bookmarks and saved tab groups via your private git repo"
   homepage "https://github.com/aadarwal/helium-sync"
   url "https://github.com/aadarwal/helium-sync/archive/refs/tags/v0.2.0.tar.gz"
   sha256 "a797e3d9bf75f3f6ff71cc7b0b647f2845a543f60049ad4fcd381c516566f534"
