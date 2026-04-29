@@ -9,17 +9,14 @@ class HeliumSync < Formula
   depends_on "leveldb"
   depends_on "protobuf"
   depends_on "python@3.13"
-  depends_on :macos
 
-  on_arm do
-    resource "leveldb-writer" do
+  resource "leveldb-writer" do
+    on_arm do
       url "https://github.com/aadarwal/helium-sync/releases/download/v0.2.0/leveldb-writer-darwin-arm64"
       sha256 "6aaea4632a63b170f97f047621b0ebddc26865924e869db694664ad838ce9ab7"
     end
-  end
 
-  on_intel do
-    resource "leveldb-writer" do
+    on_intel do
       url "https://github.com/aadarwal/helium-sync/releases/download/v0.2.0/leveldb-writer-darwin-amd64"
       sha256 "f1115686af42a4812f6e4ed527cd5f4d531b4a52195208d1d3853226d0b719e5"
     end
