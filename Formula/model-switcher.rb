@@ -1,9 +1,9 @@
 class ModelSwitcher < Formula
   desc "Run claude and codex on whichever subscription account has room, and rotate a walled pane in place"
   homepage "https://github.com/aadarwal/model-switcher"
-  url "https://github.com/aadarwal/model-switcher/releases/download/v0.4.2/model-switcher-v0.4.2.tar.gz"
-  sha256 "2e831386cd5523cec3d43ebad27275b1e1eeca91a0fb3df2a0b7a0d981308789"
-  version "0.4.2"
+  url "https://github.com/aadarwal/model-switcher/releases/download/v0.4.3/model-switcher-v0.4.3.tar.gz"
+  sha256 "f3fb9401167be0e762552a9e36514ef8c9329511a80e268f136ab7eae55f7fde"
+  version "0.4.3"
   license "MIT"
 
   depends_on "node"
